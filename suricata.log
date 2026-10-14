@@ -1,0 +1,20 @@
+[21588 - Suricata-Main] 2026-10-14 18:15:16 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in USER mode
+[21588 - Suricata-Main] 2026-10-14 18:15:16 Info: cpu: CPUs/cores online: 2
+[21588 - Suricata-Main] 2026-10-14 18:15:16 Info: suricata: Setting engine mode to IDS mode by default
+[21588 - Suricata-Main] 2026-10-14 18:15:16 Info: exception-policy: master exception-policy set to: auto
+[21588 - Suricata-Main] 2026-10-14 18:15:16 Info: logopenfile: fast output device (regular) initialized: fast.log
+[21588 - Suricata-Main] 2026-10-14 18:15:16 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[21588 - Suricata-Main] 2026-10-14 18:15:16 Info: logopenfile: stats output device (regular) initialized: stats.log
+[21588 - Suricata-Main] 2026-10-14 18:15:16 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+[21588 - Suricata-Main] 2026-10-14 18:15:16 Warning: detect: 1 rule files specified, but no rules were loaded!
+[21588 - Suricata-Main] 2026-10-14 18:15:16 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[21588 - Suricata-Main] 2026-10-14 18:15:16 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[21588 - Suricata-Main] 2026-10-14 18:15:16 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[21593 - RX#01] 2026-10-14 18:15:16 Info: pcap: Starting file run for /content/ciciot_data/PCAPS/Mirai-udpplain/Mirai-udpplain.pcap
+[21593 - RX#01] 2026-10-14 18:15:16 Info: checksum: No packets with invalid checksum, assuming checksum offloading is NOT used
+[21588 - Suricata-Main] 2026-10-14 18:15:16 Notice: threads: Threads created -> RX: 1 W: 2 FM: 1 FR: 1   Engine started.
+[21593 - RX#01] 2026-10-14 18:15:26 Info: pcap: pcap file /content/ciciot_data/PCAPS/Mirai-udpplain/Mirai-udpplain.pcap end of file reached (pcap err code 0)
+[21588 - Suricata-Main] 2026-10-14 18:15:26 Notice: suricata: Signal Received.  Stopping engine.
+[21588 - Suricata-Main] 2026-10-14 18:15:26 Info: suricata: time elapsed 9.777s
+[21593 - RX#01] 2026-10-14 18:15:26 Notice: pcap: read 1 file, 3642269 packets, 462796223 bytes
+[21588 - Suricata-Main] 2026-10-14 18:15:26 Info: counters: Alerts: 0
